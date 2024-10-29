@@ -1,0 +1,112 @@
+
+body {
+    background-color: #fff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+/* Estilo básico para a navbar */
+.navbar {
+    background-color: #f8f9fa; /* cor de fundo da navbar */
+}
+
+.nav-link {
+    color: #007bff; /* cor dos links */
+    padding: 10px 15px; /* espaço em torno do link */
+    border-radius: 5px; /* bordas arredondadas */
+    transition: background-color 0.3s; /* transição suave para a cor de fundo */
+}
+
+.nav-link:hover {
+    background-color: #ffcccc; /* cor do fundo ao passar o mouse */
+}
+
+.nav-item.active .nav-link {
+    background-color: #a80000; /* fundo vermelho escuro para o item ativo */
+    color: white; /* cor do texto para o item ativo */
+    font-weight: bold; /* estilo para o link ativo */
+}
+
+
+h1 {
+    color: black;
+}
+
+.lista {
+    width: 100%;
+    text-align: center;
+
+}
+/*Barra de pesquisa*/
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.pesquisa .form-control {
+    width: 300px;
+    margin-right: 10px;
+} 
+
+/*Tabela*/
+
+.table-responsive {
+    margin: 20px auto;
+    width: 90%;
+    padding: 5px;
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Botão de filtragem*/
+
+.btn-primary {
+    background-color: #7E0000; 
+    border-color: #7E0000;
+    color: white;
+    height: 38px
+}
+
+.btn-primary:hover {
+    background-color: #c0153d; /* Cor ao passar o mouse */
+    border-color: #c0153d;
+}
+
+/*Botão de mais informação*/
+
+.btn-info {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #31b0d5; 
+    border-color: #269abc;
+}
+
+/*Botão de exclusão*/
+
+.btn-danger {
+    background-color: #7E0000; /* Cor do botão de excluir */
+    border-color: #7E0000;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c0153d; /* Cor ao passar o mouse */
+    border-color: #c0153d;
+}
+
+/* Ajuste de alinhamento */
+.lista .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.lista .buttons .btn {
+    margin-right: 10px;
+}
