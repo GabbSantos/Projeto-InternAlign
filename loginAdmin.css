@@ -1,0 +1,67 @@
+body {
+    background-color: #fff; /* Cor de fundo suave */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 100px); /* Altura da tela menos um ajuste para subir */
+    padding-bottom: 90px; /* Ajuste de padding inferior */
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px; /* Espaçamento inferior para separar do formulário */
+}
+
+.card {
+    border: none; /* Remove borda do card */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+}
+
+.card-body {
+    padding: 2rem; /* Espaçamento interno */
+    padding-top: 1rem; /* Reduz o espaço superior dentro da card */
+}
+
+.form-group {
+    margin-bottom: 5px; /* Espaçamento inferior ainda mais reduzido */
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #ffffff; /* Cor do texto dos labels */
+}
+
+.form-control {
+    border-radius: 5px; /* Bordas arredondadas para os inputs */
+    padding: 0.75rem; /* Espaçamento interno dos inputs */
+    border: 1px solid #ced4da; /* Cor da borda dos inputs */
+    margin-bottom: 5px; /* Reduz a margem inferior para diminuir o espaço entre os campos */
+}
+
+.btn-primary {
+    background-color: #7E0000; /* Cor do botão */
+    border-color: #7E0000; /* Cor da borda do botão */
+    border-radius: 5px; /* Bordas arredondadas para o botão */
+    padding: 0.75rem; /* Espaçamento interno do botão */
+    font-size: 1rem; /* Tamanho da fonte do botão */
+    margin-top: 25px; /* Aumenta o espaço entre os campos de login e o botão */
+}
+
+.btn-primary:hover {
+    background-color: #c0153d; /* Cor do botão ao passar o mouse (mais escura) */
+    border-color: #c0153d; /* Cor da borda do botão ao passar o mouse */
+}
+
+.alert-danger {
+    margin-top: 1rem; /* Espaçamento superior para a mensagem de erro */
+    border-radius: 5px; /* Bordas arredondadas para a mensagem de erro */
+}
